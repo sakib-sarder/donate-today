@@ -6,9 +6,9 @@
 .btn-primary{
     color:#ffffff;
     background-color:#FF5959;
-    padding: 20px;
+    padding: 18px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
 }
@@ -63,11 +63,118 @@
     background-color: #fafafa;
 }
 .other-ammount{
+    color: #707070;
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .btn-ammount{
     margin-top: 15px;
 }
 /* End Of Donate Money */
-/* Donate Plan */
+/* Donation Plan */
+.distribution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.donate-plan{
+    text-align: center;
+    margin-top: 110px;
+}
+.dpt-head{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.dpt-description{
+    margin-bottom: 30px;
+}
+.distribution-box{
+    height: 330px;
+    width: 300px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+.icons{
+    padding-top: 40px;
+}
+.db-head{
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.db-info{
+    padding-top: 10px;
+    line-height: 24px;
+}
+.purple{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.yellow{
+    background-color: rgba(255, 244, 214, 0.6);
+}
+/* Donation Plan End */
+/* Donation */
+.donation1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 456px;
+    height: 477px;
+    border-radius: 10px;
+}
+.donation-info{
+    width: 456px;
+    height: 477px;
+    padding: 150px;
+    margin-top: 70px;
+}
+.head1{
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.donation-des{
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.donation2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    margin-left: 245px;
+}
+
+/* End Donation */
+/* Form */
+.form{
+    margin-top: 100px;
+    text-align: center;
+}
+.form-head{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.form-description{
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.email{
+    padding: 50px;
+    background-color: #FFF4D6;
+    width: 400px;
+    text-align: center;
+    margin: 0px auto;
+}
+.input{
+    padding: 10px;
+}
+
