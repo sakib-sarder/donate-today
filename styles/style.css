@@ -62,6 +62,10 @@
     padding: 30px;
     background-color: #fafafa;
 }
+.adjusted{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
 .other-ammount{
     color: #707070;
     margin-top: 25px;
@@ -155,7 +159,7 @@
 /* End Donation */
 /* Form */
 .form{
-    margin-top: 100px;
+    margin-top: -100px;
     text-align: center;
 }
 .form-head{
@@ -176,5 +180,32 @@
 }
 .input{
     padding: 10px;
+    background-color:#f1ecec;
+    border: none;
 }
-
+.btn-subscribe{
+    background-color: #FF5959;
+    color: #f1ecec;
+    font-size: 15px;
+    border: none;
+}
+/* Footer */
+.footer{
+    margin-top: 110px;
+    width: 100%;
+    height: 177px;
+    background-color: #0b0d17;
+}
+.footer-head{
+    color:#FF5959;
+    font-family: 'Lobster', cursive;
+    font-style:normal;
+    text-align: center;
+    padding-top: 43px;
+}
+.footer-des{
+    padding-top: 24px;
+    color: #fafafa;
+    text-align: center;
+    opacity: 0.6;
+}
